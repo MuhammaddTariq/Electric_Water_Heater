@@ -1,0 +1,10 @@
+ADC_PROGRAM.o ADC_PROGRAM.o: ../ADC_PROGRAM.c ../BIT_MATH.h \
+  ../STD_TYPES.h ../ADC_PRIVATE.h ../ADC_CONFIG.h
+
+../BIT_MATH.h:
+
+../STD_TYPES.h:
+
+../ADC_PRIVATE.h:
+
+../ADC_CONFIG.h:
