@@ -5,20 +5,26 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../ADC_PROGRAM.c \
+../DIO_PROGRAM.c \
 ../EEPROM_PROGRAM.c \
 ../Heater_Program.c \
+../TWI_PROGRAM.c \
 ../main.c 
 
 OBJS += \
 ./ADC_PROGRAM.o \
+./DIO_PROGRAM.o \
 ./EEPROM_PROGRAM.o \
 ./Heater_Program.o \
+./TWI_PROGRAM.o \
 ./main.o 
 
 C_DEPS += \
 ./ADC_PROGRAM.d \
+./DIO_PROGRAM.d \
 ./EEPROM_PROGRAM.d \
 ./Heater_Program.d \
+./TWI_PROGRAM.d \
 ./main.d 
 
 
